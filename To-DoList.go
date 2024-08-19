@@ -60,6 +60,7 @@ func main() {
 	fmt.Println("This is my To-Do List CLI application")
 	fmt.Println("To enter a To-Do enter it with this format: \"title | description\"")
 	fmt.Println("To display your To-Do List enter: \"display\"")
+	fmt.Println("To remove a To-Do enter: \"remove idx\"  ")
 	fmt.Println("To terminate application enter: \"exit\"")
 
 	var continueFlag bool = true 
